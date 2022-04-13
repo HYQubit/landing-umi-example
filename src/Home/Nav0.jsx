@@ -31,14 +31,16 @@ class Header extends React.Component {
           <SubMenu
             key={item.name}
             {...itemProps}
-            title={(
-              <div
-                {...a}
-                className={`header0-item-block ${a.className}`.trim()}
-              >
-                {a.children.map(getChildrenToRender)}
-              </div>
-            )}
+            title={
+              (
+                <div
+                  {...a}
+                  className={`header0-item-block ${a.className}`.trim()}
+                >
+                  {a.children.map(getChildrenToRender)}
+                </div>
+              )
+            }
             popupClassName="header0-item-child"
           >
             {subItem.map(($item, ii) => {
