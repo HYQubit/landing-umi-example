@@ -5,7 +5,7 @@ export const Nav00DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: 'https://statics.pkumozzie.cn/huayi/logo.png',
+    children: 'https://statics.pkumozzie.cn/huayi/logo.svg',
   },
   Menu: {
     className: 'header0-menu',
@@ -55,7 +55,7 @@ export const Banner01DataSource = {
   textWrapper: { className: 'banner0-text-wrapper l1xhc7u69gg-editor_css' },
   title: {
     className: 'banner0-title l1xdi6p6yt-editor_css',
-    children: 'https://statics.pkumozzie.cn/huayi/logo-big.png',
+    children: 'https://statics.pkumozzie.cn/huayi/logo-big.svg',
   },
   content: {
     className: 'banner0-content l1xdinkvq2-editor_css',
@@ -486,7 +486,7 @@ export const Footer00DataSource = {
         title: {
           className: 'logo',
           children:
-            'https://statics.pkumozzie.cn/huayi/logo-big.png',
+            'https://statics.pkumozzie.cn/huayi/logo-big.svg',
         },
         childWrapper: {
           className: 'slogan',

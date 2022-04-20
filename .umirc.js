@@ -7,4 +7,5 @@ export default {
   targets: {
     ie: 11,
   },
+  title: '华翊量子',
 }
